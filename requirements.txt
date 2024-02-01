@@ -1,0 +1,8 @@
+xgboost
+scikit-learn
+numpy
+pandas
+polars
+pyarrow
+optuna
+notebook
