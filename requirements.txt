@@ -6,3 +6,4 @@ polars
 pyarrow
 optuna
 notebook
+imblearn

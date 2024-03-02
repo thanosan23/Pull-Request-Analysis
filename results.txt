@@ -1,3 +1,7 @@
+#################
+# Rejected  PRs #
+#################
+
 1. Random Forest (Sci-kit Learn)
 
 accuracy: 87.3%
@@ -28,3 +32,19 @@ Precision: 0.90147783
 Recall: 0.97860963
 F-score: 0.93846154
 Learning rate (adam optimizer): 0.001
+
+#################
+# Accepted  PRs #
+#################
+
+1. XGBoost
+accuracy: 90%
+features: ['ci_test_passed']
+
+2. CodeBERT Model
+
+Accuracy: 51.88%
+Precision: 0.51875
+Recall: 1
+F-score: 0.68312757
+Learning rate (adam optimizer): 0.1
