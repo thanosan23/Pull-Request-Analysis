@@ -1,3 +1,78 @@
+Features different between males and females:
+* churn_deletion
+* churn_addition
+* ci_build_num
+* ci_failed_perc (only for rejected)
+* ci_latency
+* code_churn_open (only for rejected)
+* files_added_open
+* files_changed (different for rejected, same for accepted)
+* files_modified (different for rejected, same for accepted)
+* files_modified_open (different for rejected, same for accepted)
+* num_comments (different for rejected, same for accepted)
+* perc_contrib_neu_emo
+* perc_neu_emotion (different for rejected, same for accepted)
+* perc_pos_emotion (different for rejected, same for accepted)
+* prev_pullreqs
+* sloc
+* src_churn (different for rejected, same for accepted)
+* src_churn_open (different for rejected, same for accepted)
+* src_files_open
+* team_size
+* test_cases_per_kloc (different for rejected, same for accepted)
+* test_churn
+* test_churn_open
+* watchers
+
+Same:
+* asserts_per_kloc
+* at_tag
+* bug_fix
+* churn_addition_open
+* churn_deletion_open
+* ci_first_build_status
+* ci_last_build_status
+* ci_test_passed
+* code_chunk_num_open
+* comment_conflict
+* commit_on_files_touched
+* commit_on_files_touched_close
+* description_length (slightly different, but roughly the same)
+* doc_files
+* doc_files_open
+* files_added
+* files_changed_open
+* files_deleted
+* files_deleted_open
+* friday_effect
+* hash_tag
+* integrator_availability
+* last_close_time
+* num_code_comments
+* num_code_comments_con
+* num_commit_comments
+* num_commits
+* num_commits_open
+* other_comment
+* other_files
+* other_files_open
+* part_num_code
+* perc_contrib_neg_emo
+* perc_contrib_pos_emo
+* perc_external_contribs
+* perc_inte_neg_emo
+* perc_inte_neu_emo
+* perc_inte_pos_emo
+* perc_neg_emotion
+* reopen_num
+* reopen_or_not
+* requester_succ_rate
+* same_user
+* src_files
+* test_inclusion
+* test_inclusion_open
+* test_lines_per_kloc
+
 #################
 # Rejected  PRs #
 #################
