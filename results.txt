@@ -77,49 +77,18 @@ Same:
 # Rejected  PRs #
 #################
 
-1. Random Forest (Sci-kit Learn)
+Configuration:  
+* SMOTE for oversampling
+* Stratified k-fold (10 folds)
+* Learning rate: 0.1
 
-accuracy: 87.3%
-features:['perc_neu_emotion', 'perc_pos_emotion', 'asserts_per_kloc', 'num_issue_comments', 'perc_neg_emotion', 'test_inclusion', 'ci_exists', 'has_comments', 'has_participants', 'reviewer_comment', 'contrib_comment', 'inte_comment', 'has_exchange', 'perc_contrib_neu_emo', 'contrib_rate_author', 'ci_test_passed', 'num_comments_con', 'first_close_minutes', 'perc_inte_pos_emo', 'perc_contrib_neg_emo', 'perc_inte_neu_emo', 'ci_last_build_status', 'test_inclusion_open', 'ci_first_build_status', 'perc_inte_neg_emo']
+Test Accuracy: 9.20%
+              
+              precision    recall  f1-score   support
 
-2. XGBoost
+           0       0.09      1.00      0.17        46
+           1       0.00      0.00      0.00       454
 
-accuracy: 91.05%
-learning rate: 0.01
-features: ['perc_contrib_neu_emo', 'perc_neu_emotion', 'perc_pos_emotion', 'ci_test_passed', 'asserts_per_kloc', 'perc_neg_emotion', 'perc_inte_pos_emo', 'perc_contrib_neg_emo', 'perc_inte_neu_emo', 'test_inclusion', 'ci_last_build_status', 'test_inclusion_open', 'ci_first_build_status', 'perc_inte_neg_emo']
-
-3. XGBoost
-
-accuracy: 91.097%
-learning rate: 1
-features: ['perc_contrib_neu_emo', 'perc_neu_emotion', 'perc_pos_emotion', 'ci_test_passed', 'asserts_per_kloc', 'perc_neg_emotion', 'perc_inte_pos_emo', 'perc_contrib_neg_emo', 'perc_inte_neu_emo', 'test_inclusion', 'ci_last_build_status', 'test_inclusion_open', 'ci_first_build_status', 'perc_inte_neg_emo']
-
-4. XGBoost
-
-learning rate: 0.01
-accuracy: 90.61%
-features: ['perc_contrib_neu_emo', 'perc_neu_emotion', 'perc_pos_emotion']
-
-5. CodeBERT Model:
-
-Accuracy: 88.94%
-Precision: 0.90147783
-Recall: 0.97860963
-F-score: 0.93846154
-Learning rate (adam optimizer): 0.001
-
-#################
-# Accepted  PRs #
-#################
-
-1. XGBoost
-accuracy: 90%
-features: ['ci_test_passed']
-
-2. CodeBERT Model
-
-Accuracy: 51.88%
-Precision: 0.51875
-Recall: 1
-F-score: 0.68312757
-Learning rate (adam optimizer): 0.1
+    accuracy                           0.09       500
+   macro avg       0.05      0.50      0.08       500
+weighted avg       0.01      0.09      0.02       500
